@@ -84,6 +84,7 @@ for(nu in 1:length(num)){
         N <- 100000
         for(j in 1:N){
           
+          set.seed(j)
           ## Setting n (observations) 
           n <- num[nu]  
           

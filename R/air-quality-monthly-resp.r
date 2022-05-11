@@ -1,7 +1,7 @@
 rm(list=ls())
 
 # input data
-regTaiwan_M <- read.csv("DataExample/taiwan-monthly.csv",header = T)
+regTaiwan_M <- read.csv("Data/taiwan-monthly.csv",header = T)
 regTaiwan_M <- data.frame(regTaiwan_M)
 
 # ARRANGE THE DATA AS A LIST OF DATA SETS
